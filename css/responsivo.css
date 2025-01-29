@@ -1,0 +1,105 @@
+@media  (min-width: 600px) {
+
+
+
+.corpo #quadradinho1 {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    background-color: #4fc737;
+}
+.corpo #quadradinho2 {
+    height: 300px;
+    width: 300px;
+    background-color: #ffef0f;
+}
+.corpo #quadradinho3 {
+    height: 300px;
+    width: 300px;
+    background-color: #2515b9;
+}
+.corpo #quadradinho4 {
+    height: 300px;
+    width: 300px;
+    background-color: #666666;
+}
+}
+
+@media  (min-width: 600px) 
+{
+.corpo #quadradinho1 {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    background-color: #4fc737;
+}
+.corpo #quadradinho2 {
+    height: 300px;
+    width: 300px;
+    background-color: #ffef0f;
+}
+.corpo #quadradinho3 {
+    height: 300px;
+    width: 300px;
+    background-color: #2515b9;
+}
+.corpo #quadradinho4 {
+    height: 300px;
+    width: 300px;
+    background-color: #666666;
+}
+}
+
+@media  (min-width: 800px) 
+{
+.corpo #quadradinho1 {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    background-color: #4fc737;
+}
+.corpo #quadradinho2 {
+    height: 300px;
+    width: 300px;
+    background-color: #ffef0f;
+}
+.corpo #quadradinho3 {
+    height: 300px;
+    width: 300px;
+    background-color: #2515b9;
+}
+.corpo #quadradinho4 {
+    height: 300px;
+    width: 300px;
+    background-color: #666666;
+}
+}
+
+@media  (min-width: 1000px) 
+{
+.corpo #quadradinho1 {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    background-color: #4fc737;
+}
+.corpo #quadradinho2 {
+    height: 300px;
+    width: 300px;
+    background-color: #ffef0f;
+}
+.corpo #quadradinho3 {
+    height: 300px;
+    width: 300px;
+    background-color: #2515b9;
+}
+.corpo #quadradinho4 {
+    height: 300px;
+    width: 300px;
+    background-color: #666666;
+}
+}
