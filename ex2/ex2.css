@@ -1,0 +1,49 @@
+       body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            max-width: 1200px;
+            width: 100%;
+        }
+        .card {
+            background: #dd3cad;
+            padding: 20px;
+            border-radius: 10px;
+            /* SOMBRA DA LNHA */
+            box-shadow: 0 4px 6px rgba(145, 52, 29, 0.877);  
+            text-align: center;
+        }
+        
+        /* Layout responsivo */
+        @media (min-width: 1025px) {
+            .container {
+                flex-direction: row;
+            }
+            .card {
+                width: calc(33.33% - 20px);
+            }
+        }
+        
+        @media (min-width: 768px) and (max-width: 1024px) {
+            .container {
+                justify-content: center;
+            }
+            .card {
+                width: calc(50% - 20px);
+            }
+        }
+        
+        @media (max-width: 767px) {
+            .container {
+                flex-direction: column;
+            }
+            .card {
+                width: 100%;
+            }
+        }
