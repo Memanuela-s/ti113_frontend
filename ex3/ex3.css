@@ -1,48 +1,175 @@
-@media (max-width: 767px) {
-    body { font-family: Arial, sans-serif } 
-        
-       
+/* Telas de Celular */
+@media only screen and (max-width:768px) {
+    * {
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+    }
+ 
+    header {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+ 
+    nav {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+ 
+    nav a {
+        background-color: #006eff;
+        text-decoration: none;
+        padding: 5px;
+        margin: 5px 8px;
+    }
+ 
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    section.container-banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
+    section img {
+        width: 50vw;
+        aspect-ratio: 1/1;
+    }
+ 
+    section article {
+        background-color: #006eff;
+        margin: 5px 8px;
+    }
+ 
+    section article p {
+        padding: 10px;
+    }
+ 
+    footer {
+        background-color: #006eff;
+        margin: 5px 8px;
+        padding: 10px;
+    }
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    padding: 10px;
-}
+ 
+/* Telas de Tablets */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    * {
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+    }
 
-.Linha {
-    display: flex;
-    flex-direction: column;
+    header {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav a {
+        background-color: #006eff;
+        text-decoration: none;
+        padding: 5px;
+        margin: 5px 8px;
+    }
     
+    section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .banner {
+        width: 100vw;
+        height: 150px;
+        background-color: #006eff;
+        margin-bottom: 10px;
+    }
+
+    section article {
+        background-color: #006eff;
+        height: 25vh;
+        margin: 4px 2px;
+        
+        
+    }
+ 
+    section article p {
+        flex-direction: row;
+        margin: 3vw;
+        height: 3vh;
+        
+    }
+
+    footer {
+        background-color: #006eff;
+        margin: 5px;
+        padding: 10px;
+        text-align: center;
+    }
 }
 
-.Linha a {
-    background: #3498db;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    margin-bottom: 5px;
-}
+/* Telas Desktops */
+@media only screen and (min-width: 992px) {
+    * {
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+    }
 
-.banner {
-    background: #2980b9;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
+    header {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
 
-article {
-    background: #2980b9;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    margin-bottom: 5px;
-}
+    nav {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
 
-footer {
-    background: #2c3e50;
-    color: white;
-    padding: 15px;
-    text-align: center;
-}
+    nav a {
+        background-color: #006eff;
+        text-decoration: none;
+        padding: 5px;
+        margin: 5px 8px;
+    }
+
+    .banner {
+        width: 100vw;
+        height: 150px;
+        background-color: #006eff;
+        margin-bottom: 10px;
+    }
+
+    section article {
+        background-color: #006eff;
+        margin: 5px 8px;
+    }
+ 
+    section article p {
+        padding: 10px;
+    }
+    }
+
+    footer {
+        background-color: #006eff;
+        margin: 5px;
+        padding: 10px;
+        text-align: center;
+    }
