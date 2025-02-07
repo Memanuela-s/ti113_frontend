@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="ex5.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-section"></div>
+        <div class="form-section">
+            <h2>Register</h2>
+            <form id="registerForm">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="email" id="email" placeholder="Email address" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <input type="password" id="confirmPassword" placeholder="Confirm password" required>
+                <button type="submit" id="registerBtn">REGISTER</button>
+            </form>
+            <p class="signin">Sign In</p>
+            <button class="google">G SIGN UP WITH GOOGLE</button>
+            <button class="facebook">f SIGN UP WITH FACEBOOK</button>
+
+            <h3>Usuários Cadastrados</h3>
+            <table id="userTable">
+                <thead>
+                    <tr>
+                        <th>Login</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="ex5.js"></script>
+</body>
+</html>
